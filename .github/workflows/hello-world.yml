@@ -12,6 +12,8 @@ jobs:
         run: echo "::notice::Notice message"
       - name: Warning
         run: echo "::warning::Warning message"
+      - name: Add Mask
+        run: echo "::add-mask::Add-Mask message"
 
 
 
