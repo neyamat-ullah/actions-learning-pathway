@@ -10,6 +10,8 @@ jobs:
         run: echo "::debug::Debug message"
       - name: Notice
         run: echo "::notice::Notice message"
+      - name: Warning
+        run: echo "::warning::Warning message"
 
 
 
