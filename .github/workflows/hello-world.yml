@@ -7,7 +7,9 @@ jobs:
       - name: Error
         run: echo "::error::Error message"
       - name: Debug
-        run: echo "::debug::Set the Octocat variable"
+        run: echo "::debug::Debug message"
+      - name: Notice
+        run: echo "::notice:: Notice message"
 
 
 
