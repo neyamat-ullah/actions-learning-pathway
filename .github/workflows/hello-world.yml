@@ -9,7 +9,7 @@ jobs:
       - name: Debug
         run: echo "::debug::Debug message"
       - name: Notice
-        run: echo "::notice:: Notice message"
+        run: echo "::notice::Notice message"
 
 
 
